@@ -1,0 +1,44 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+p {
+font-family: 'Oswald', sans-serif;
+font-size: 3em;
+text-align: center;
+margin: 10% 20%;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+.refresh {
+    width: 300px !important;
+    padding: 20px;
+    text-align: center;
+    border: 0;
+}
+             
+ .btn-grad {
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    
+    
+    
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+.pergunta {
+    height: 80%;
+}
