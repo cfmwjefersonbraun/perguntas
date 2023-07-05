@@ -10,6 +10,12 @@ body {
     color: black;
 }
 
+@media (max-width:961px) {
+    .perg {
+        font-size: 3em !important;
+    }
+}
+
 .perg {
     margin: 14% 10% 0;
     font-size: 3em;
@@ -47,6 +53,17 @@ body {
     height: 80%;
 }
 
+@media (min-width:961px) {
+    .share {
+        font-size: 1.4em !important;
+    }
+
+    .credits {
+        font-size: 1.4em !important;
+    }    
+    
+}
+
 .share {
     font-size: 2em;
 }
@@ -56,7 +73,7 @@ body {
 }
 
 .top  {
-    top: 100px;
+    margin-top: 20% !important;
 }
 
 .base {
